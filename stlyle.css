@@ -19,9 +19,8 @@ P {
   color: blueviolet;
   border: 1px solid #f9f7;
   border-radius: 5px;
-  font-size: 18px;
-  padding: 15px 30px;
-  line-height: 25px;
+  font-size: 14px;
+  padding: 10px 20px;
 }
 
 .fitness {
@@ -116,19 +115,6 @@ span {
   color: #512;
 }
 
-.content p {
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  color: rgb(183, 183, 183);
-  text-decoration: none;
-  margin: 30px 15px 30px 0;
-}
-
 .image-container {
   position: relative;
   margin-top: 0px;
@@ -149,4 +135,10 @@ span {
 
 html {
   scroll-behavior: smooth;
+}
+@media (max-width: 900px) {
+  .project {
+    padding: 0;
+    text-align: center;
+  }
 }
