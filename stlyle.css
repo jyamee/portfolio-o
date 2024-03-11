@@ -6,12 +6,12 @@
   --socials-color: #9374a5a7;
 }
 span {
-  color: rgb(52, 55, 59);
   color: var(--profile-color);
 }
 
 strong {
   color: var(--profile-color);
+  color: rgb(52, 55, 59);
 }
 .h3 {
   color: #23202c;
